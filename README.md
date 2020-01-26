@@ -10,6 +10,8 @@ Ao executar esse comando um outro comando sera criado para a execução do proje
 $ top-ten-stonks
 ```
 
+Esse projeto usa o driver oficial do MongoDB para Go e um scrapper para go chamado Colly, ambos são instalados ao ultilizar o comando "go install" para o projeto. 
+
 ## Configuração
 Para conectar um banco de dados cole a URL para um base de dados MongoDB do atlas no arquivo main.go, onde le-se "your Atlas connection URI".
 
